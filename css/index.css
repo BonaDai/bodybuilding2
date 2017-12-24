@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-width {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.head {
+    background-color: red;
+}
+
+.head-content {
+    text-align: right;
+    color: white;
+    font-size: 11px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.head-content span {
+    padding: 0 15px;
+}
+
+.head-content img {
+    margin-left: 10px;
+}
+
+.top-nav {
+    height: 62px;
+    line-height: 62px;
+    overflow: hidden;
+}
+
+.nav-left {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-left span {
+    color: red;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right span {
+    font-size: 11px;
+    margin-left: 34px;
+    cursor: pointer;
+}
+
+.nav-right span:hover {
+    color: red;
+}
+
+.nav-actived {
+    color: red;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    background: url("../image/banner.png") no-repeat top;
+    color: white;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.banner-title1 {
+    position: relative;
+    top: 170px;
+    font-size: 30px;
+}
+
+.banner-title2 {
+    position: relative;
+    top: 170px;
+    font-size: 30px;
+}
+
+.banner-btn {
+    position: relative;
+    top: 200px;
+    width: 132px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    background-color: #f95a16;
+    border-radius: 12px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sport-list {
+    margin: -100px auto 0;
+    /* margin: 0 auto; */
+    overflow: hidden;
+}
+
+.sport-type {
+    /* width: 300px; */
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.sport-img {
+    height: 26px;
+    line-height: 26px;
+    margin: 30px auto 0;
+}
+
+.sport-img img {
+    width: 10%;
+}
+
+.sport-name {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-top: 11px;
+}
+
+.sport-line {
+    width: 37px;
+    border: 1px solid #f95a16;
+    margin: 10px auto 0;
+}
+
+.sport-desc {
+    color: #868686;
+    /* width: 257px; */
+    margin: 16px auto 0;
+}
+
+.sport-btn {
+    width: 82px;
+    height: 32px;
+    line-height: 32px;
+    color: #f95a16;
+    margin: 14px auto 24px;
+    font-size: 13px;
+    border: 1px solid #f95a16;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.fitness-expert {
+    text-align: center;
+}
+
+.fitness-expert-title {
+    font-size: 24px;
+    margin-top: 65px;
+}
+
+.fitness-expert-line {
+    color: #f95a16;
+    width: 65px;
+    border: 1px solid #f95a16;
+    margin: 15px auto 0;
+}
+
+.fitness-expert-desc {
+    font-size: 16px;
+    color: #959595;
+    margin-top: 40px;
+}
+
+.fitness-expert-img-list {
+    margin-top: 98px;
+    text-align: center;
+}
+
+.fitness-expert-img-item {
+    /* height: 300px; */
+    width: 30%;
+}
+
+.fitness-expert-img-item:nth-child(2) {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.time-table {
+    margin-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.time-table img {
+    width: 100%;
+}
+
+.pricing-plan {
+    text-align: center;
+}
+
+.pricing-plan-title {
+    font-size: 24px;
+    margin-top: 65px;
+}
+
+.pricing-plan-line {
+    color: #f95a16;
+    width: 65px;
+    border: 1px solid #f95a16;
+    margin: 15px auto 0;
+}
+
+.pricing-plan-desc {
+    font-size: 16px;
+    color: #959595;
+    margin-top: 40px;
+}
+
+.pricing-plan-list {
+    margin-top: 98px;
+}
+
+.pricing-plan-list img {
+    width: 20%;
+}
+
+.pricing-plan-list img:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pricing-plan-list img:nth-child(3) {
+    margin-right: 5%;
+}
+
+.bottom {
+    margin-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bottom img {
+    width: 100%;
+}
